@@ -10,6 +10,7 @@ import { CourseComponent } from './app/course(ngfor)/course.component';
 import {FormsModule} from "@angular/forms";
 import { UserComponent } from './models/user/user.component';
 import {CustomerService} from "./app/course(ngfor)/customer.service";
+import { NgIfComponent } from './ng-if/ng-if.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import {CustomerService} from "./app/course(ngfor)/customer.service";
 
      NavbarComponent,
       CourseComponent,
-      UserComponent
+      UserComponent,
+      NgIfComponent
   ],
   imports: [
     BrowserModule,
